@@ -1,0 +1,79 @@
+<SkypeSettings>
+  <AutoScreenShare>1</AutoScreenShare>
+  <HideMeetingName>0</HideMeetingName>
+  <AutoExitMeetingEnabled>true</AutoExitMeetingEnabled>
+  <AudioRenderDefaultDeviceVolume>50</AudioRenderDefaultDeviceVolume>
+  <AudioRenderCommunicationDeviceVolume>50</AudioRenderCommunicationDeviceVolume>
+  <UserAccount>
+    <SkypeSignInAddress>username@microsoft.com</SkypeSignInAddress>
+    <ExchangeAddress>username@microsoft.com</ExchangeAddress>
+    <DomainUsername>domain\username</DomainUsername>
+    <Password>Password!</Password>
+    <ConfigureDomain>domain1, domain2</ConfigureDomain>
+    <ModernAuthEnabled>true</ModernAuthEnabled>
+  </UserAccount>
+  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+  <SfbMeetingEnabled>false</SfbMeetingEnabled>
+  <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
+  <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
+  <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
+  <BlueJeansMeetingsEnabled>true</BlueJeansMeetingsEnabled>
+  <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
+  <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
+  <CustomDisplayEmailForThirdPartyMeetings>guest@microsoft.com</CustomDisplayEmailForThirdPartyMeetings>
+  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+  <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
+  <AllowRoomRemoteEnabled>true</AllowRoomRemoteEnabled>
+  <DualScreenMode>false</DualScreenMode>
+  <DuplicateIngestDefault>true</DuplicateIngestDefault>
+  <DisableTeamsAudioSharing>false</DisableTeamsAudioSharing>
+  <EnableRoomCapacityNotification>true</EnableRoomCapacityNotification>
+  <FrontRowEnabled>true</FrontRowEnabled>
+  <FrontRowVideoSize>medium</FrontRowVideoSize>
+  <FrontRowPanelDefaults>3,2</FrontRowPanelDefaults>
+  <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
+  <DefaultFoRExperience>0</DefaultFoRExperience>
+  <ShowMeetingChat>true</ShowMeetingChat>
+  <EnablePublicPreview>false</EnablePublicPreview>
+  <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
+  <SendLogs>
+    <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
+    <SendLogsAndFeedback>true</SendLogsAndFeedback>
+  </SendLogs>
+  <Devices>
+    <MicrophoneForCommunication>Device1</MicrophoneForCommunication>
+    <SpeakerForCommunication>DeviceX</SpeakerForCommunication>
+    <DefaultSpeaker>DeviceX</DefaultSpeaker>
+    <ContentCameraId>Camera1</ContentCameraId>
+    <ContentCameraEnhancement>true</ContentCameraEnhancement>
+    <ContentCameraInverted>false</ContentCameraInverted>
+  </Devices>
+  <Theming>
+       <ThemeName>Custom</ThemeName>
+       <CustomBackgroundMainFoRDisplay>file name</CustomBackgroundMainFoRDisplay>
+       <CustomBackgroundExtendedFoRDisplay>file name</CustomBackgroundExtendedFoRDisplay>
+       <CustomBackgroundConsole>file name</CustomBackgroundConsole>
+       <CustomThemeImageUrl>file name</CustomThemeImageUrl>
+  </Theming>
+  <TeamsRoomsNewExperience>true</TeamsRoomsNewExperience>
+  <RemoveFoRCalendar>false</RemoveFoRCalendar>
+  <CoordinatedMeetings enabled="true">
+    <TrustedAccounts>username1@microsoft.com,username2@contoso.com</TrustedAccounts>
+    <Settings>
+      <Audio default="true" enabled="true"/>
+      <Video default="true" enabled="true"/>
+      <Whiteboard default="true" enabled="true"/>
+    </Settings>
+  </CoordinatedMeetings>
+  <EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting> 
+  <MainFoRDisplay> 
+      <MainFoRDisplayResolution>1920,1080</MainFoRDisplayResolution> 
+      <MainFoRDisplayScaling>100</MainFoRDisplayScaling> 
+  </MainFoRDisplay> 
+  <ExtendedFoRDisplay> 
+      <ExtendedFoRDisplayResolution>1920,1080</ExtendedFoRDisplayResolution> 
+      <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
+  </ExtendedFoRDisplay>  
+  <EnableDeviceEndToEndEncryption>false</EnableDeviceEndToEndEncryption>
+  <SplitVideoLayoutsDisabled>false</SplitVideoLayoutsDisabled>
+</SkypeSettings>
